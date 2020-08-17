@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../shellphish.css">
+    <title>The Cyber Grand Challenge | Shellphish</title>
+  </head>
+  <body>
+    <ul id="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../members/index.html">Members</a></li>
+        <li><a href="index.html">CGC</a></li>
+    </ul>
+    
+  <h1>The Cyber Grand Challenge</h1>
+
+
+
+<figure>
+    
+        <img src="../cgc_shellphish.png" alt="Shellphish CGC Logo" width="100%" />
+    
+    
+</figure>
+
+
+<p>In 2014, with no battle plan and little idea of what it would do to our lives, Shellphish signed up for the DARPA Cyber Cyber Grand Challenge.
+The CGC was a competition to create autonomous hacking systems that went head-to-head against each other in a no-humans-allowed computer hacking match.
+This had never been done before.
+There was no blueprint, and no one, <em>especially</em> not us, knew quite what to expect.</p>
+
+<p>The competition was challenging beyond anything we had experienced before.
+To qualify for the final event, we had to defeat many established security companies and researcher labs, with a system that we had to build in what little time we had left over from research and classes.
+In the leadup to the final event, our team was pushed to the limit as we faced ever-increasing pressure to finish our system in time.</p>
+
+<p>In the end, we made it.
+This page is a central archive to hold the story of our participation in the CGC, track various things written about it around the internet, and provide a central index for our proud open-sourcing of the Mechanical Phish.</p>
+
+<h2 id="the-event">The Event</h2>
+
+<p>Our autonomous cyber-creature, the Mechanical Phish faced off against six other cleverly-named competitors and fought well, winning third place and a $750,000 prize (in addition to the $750,000 qualification award).</p>
+
+<p>It was the top system not developed by a corporation, beating systems made by companies such as Raytheon, the best-ranking system on offense, and the second-best on defense.
+It also marked the beginning of the obsolescence of humanity from yet another field&hellip;</p>
+
+
+<figure>
+    
+        <img src="../cgc_finalscoreboard.jpg" alt="The CGC Scoreboard" width="100%" />
+    
+    
+</figure>
+
+
+<h2 id="the-team">The Team</h2>
+
+
+<figure>
+    
+        <img src="../cgc_team_landscape.jpg" alt="The Shellphish Team" width="100%" />
+    
+    
+</figure>
+
+
+<p>From Left to Right:</p>
+
+<dl>
+<dt>Antonio Bianchi (anton00b)</dt>
+<dd>&ldquo;FIXME&rdquo;</dd>
+<dt>Kevin Borgolte (cao)</dt>
+<dd>Scheduling, Infrastructure</dd>
+<dt>Jacopo Corbetta (hacopo)</dt>
+<dd>Resident Know-it-all</dd>
+<dt>Francesco Disperati (nebirhos)</dt>
+<dd>Chief Surfing Officer, Infrastructure</dd>
+<dt>Audrey Dutcher (rhelmot)</dt>
+<dd>Second Youngest Program Analysis Expert</dd>
+<dt>Giovanni Vigna (zanardi)</dt>
+<dd>The Professor - Hackademic Representative</dd>
+<dt>Aravind Machiry (donfos)</dt>
+<dd>Hack -&gt; Crossfit -&gt; Repeat</dd>
+<dt>Chris Salls (salls)</dt>
+<dd>Automated Exploitation Engine</dd>
+<dt>Yan Shoshitaishvili (zardus)</dt>
+<dd>Fearless(?) Captain</dd>
+<dt>Nick Stephens (mike_pizza)</dt>
+<dd>Chief Intern and Third Youngest Automated Exploitation Expert</dd>
+<dt>Ruoyu Wang (fish)</dt>
+<dd>Fish, Human CRS</dd>
+</dl>
+
+<p>Not in the Picture:</p>
+
+<dl>
+<dt>John Grosen (nezorg)</dt>
+<dd>Youngest Program Analysis Expert</dd>
+<dt>Paul Grosen (paul)</dt>
+<dd>Youngest Program Analysis Intern, knows x86 better than you</dd>
+</dl>
+
+<h2 id="our-tools">Our Tools</h2>
+
+<p>As hackademics, we want to push forward the scope of what is possible.<br />
+To that end, we are open-sourcing every last line of code of the Mechanical Phish for the community to use, learn from, and build on!</p>
+
+<p>The Cyber Grand Challenge was the first time anything like this was attempted in the security world.
+As such, Mechanical Phish is an extremely complicated piece of software, with an absurd amount of components.<br />
+No blueprint for doing this existed before the CGC, so we had to figure things out as we went along.<br />
+Unfortunately, rather than being a software development shop, we are a &ldquo;mysterious hacker collective&rdquo;.<br />
+This means that Mechanical Phish has some rough components, missing documentation, and ghosts in the machine.
+Our hope is that, going forward, we can polish and extend Mechanical Phish, as a community, to continue to push the limits of automated hacking.<br />
+For now, keep in mind that this was never designed to be turn-key, might not install without extreme effort, and might not work without a lot of tweaking.
+Otherwise, have at it!</p>
+
+<p>We have split the components of the Mechanical Phish up to form three categories:</p>
+
+<ul>
+<li><p>The underlying binary analysis framework, <a href="https://github.com/angr/angr">angr</a> <img src="https://img.shields.io/github/stars/angr/angr.svg?style=social&amp;label=angr" alt="angr" /></p></li>
+
+<li><p>Components that can be used as standalone tools in security research and CTF competitions, such as <a href="https://github.com/shellphish/driller"><em>Driller</em></a>
+<img src="https://img.shields.io/github/stars/shellphish/driller.svg?style=social&amp;label=Driller" alt="driller" /> (our crash discovery technique), <a href="https://github.com/shellphish/rex"><em>Rex</em></a><img src="https://img.shields.io/github/stars/shellphish/rex.svg?style=social&amp;label=Rex" alt="rex" /> (our automated exploitation tool), <a href="https://github.com/shellphish/patcherex"><em>Patcherex</em></a> <img src="https://img.shields.io/github/stars/shellphish/patcherex.svg?style=social&amp;label=Patcherex" alt="patcherex" /> (for automated patching), and <a href="https://github.com/salls/angrop"><em>angrop</em></a><img src="https://img.shields.io/github/stars/salls/angrop.svg?style=social&amp;label=angrop" alt="angrop" />  (our automatic ropchain builder).</p></li>
+
+<li><p>The <a href="https://github.com/mechaphish/mecha-docs">glue components</a> <img src="https://img.shields.io/github/stars/mechaphish/mecha-docs.svg?style=social&amp;label=Docs" alt="docs" /> of the Mechanical Phish, containing everything specific to the CGC itself.</p></li>
+</ul>
+
+<h2 id="want-to-know-more">Want to Know More?</h2>
+
+<p>The Cyber Grand Challenge drew intense media attention.
+We&rsquo;ve compiled the set of media articles here that show us in the best possible light. Enjoy!</p>
+
+<h3 id="videos">Videos</h3>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=v5ghK6yUJv4">DARPA&rsquo;s Cyber Grand Challenge: The Highlights from the Final Event</a></li>
+<li><a href="http://shellphish.net/cgc/href=&quot;https://www.youtube.com/watch?v=n0kn4mDXY6I">DARPA&rsquo;s Cyber Grand Challenge: Final Event Program</a></li>
+<li><a href="https://www.youtube.com/watch?v=9y5Myzt7Zaw">Team Shellphish: DARPA&rsquo;s Cyber Grand Challenge</a></li>
+<li><a href="https://www.facebook.com/nytimes/videos/10150864919889999/">New York Times Interview (Facebook Live)</a></li>
+</ul>
+
+<h3 id="articles">Articles</h3>
+
+<ul>
+<li><a href="http://www.theregister.co.uk/2016/08/22/mechanical_phish_autoexploit_autopatch_kit_lands_on_github/">Mechanical Phish auto-exploit auto-patch kit lands on GitHub, The Register</a></li>
+<li><a href="http://www.wired.com/2016/08/will-humans-bots-rule-cybersecurity-answer-yes/?mbid=social_twitter">Will Humans or Bots Rule Cybersecurity? The Answer Is Yes, Wired</a></li>
+<li><a href="http://www.news.ucsb.edu/2016/017082/cyber-gladiators">Cyber-Gladiators, The UCSB Current</a></li>
+<li><a href="http://finance.yahoo.com/news/cyber-grand-challenge-darpa-team-000000358.html">These grad students want to make history by crushing the world’s hackers, Yahoo Finance</a></li>
+</ul>
+
+<h3 id="papers">Papers</h3>
+
+<ul>
+<li><a href="http://www.phrack.org/papers/cyber_grand_shellphish.html">Cyber Grand Shellphish</a>, Phrack Magazine, 2017.</li>
+<li><a href="https://ieeexplore.ieee.org/document/8328966">Mechanical Phish: Resilient Autonomous Hacking</a>, Yan Shoshitaishvili, Antonio Bianchi, Kevin Borgolte, Amat Cama, Jacopo Corbetta, Francesco Disperati, Audrey Dutcher, John Grosen, Paul Grosen, Aravind Machiry, Chris Salls, Nick Stephens, Ruoyu Wang, Giovanni Vigna, IEEE Security and Privacy Magazine, vol. 16, no. 2, March 2018.</li>
+</ul>
+
+<p>You can contact the Shellphish CGC team at <a href="mailto:cgc@shellphish.net">cgc@shellphish.net</a>.</p>
+
+  </body>
+</html>
