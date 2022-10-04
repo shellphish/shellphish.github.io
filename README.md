@@ -7,3 +7,5 @@ the url was: https://git.seclab.cs.ucsb.edu/shellphish/shellphish.net
 (don't expect to find it here, the path is just relevant for historical purposes)
 
 Moving the website here solves the problem of expiring certificates.
+
+The real url is https://shellphish.net.
