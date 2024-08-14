@@ -28,3 +28,104 @@ ul#navbar li a {
     color: black;
     text-decoration: none;
 }
+
+      /* Document definitions */
+      div.docs {
+        /* border-style: solid;
+        border-width: medium;
+        border-color: darkred;*/
+      }
+
+      span.doctitle {
+        font-weight: bold;
+        display: block;
+      }
+
+      span.docauthors {
+        display: block;
+      }
+
+      span.docauthors:after {
+        content: ".";
+      }
+
+      span.dochowpub:after {
+        content: ",";
+      }
+
+      span.docpublisher:after {
+        content: ",";
+      }
+
+      span.docisbn:before {
+        content: "ISBN ";
+      }
+
+      span.docisbn:after {
+        content: ",";
+      }
+
+      span.docproc {
+        font-style: italic;
+      }
+
+      /* span.docproc:before {
+        content: "In ";
+      } */
+
+      span.docproc:after {
+        content: ",";
+      }
+
+      span.docjournal {
+        font-style: italic;
+      }
+
+      span.docjournal:after {
+        content: ",";
+      }
+
+      span.docnum:after {
+        content: ",";
+      }
+
+      span.docnote {
+        font-style: italic;    
+      }
+
+      span.docnote:after {
+        content: ".";
+      }
+
+      span.docpages:before {
+        content: "pp. ";
+      }
+
+      span.docpages:after {
+        content: ",";
+      }
+
+      span.docwhere:after {
+        content: ",";
+      }
+
+      span.doctype:after {
+        content: ",";
+      }
+
+      span.docwhen:after {
+        content: ".";
+      }
+
+      span.doclink {
+        display: block;
+      }
+
+      span.doclink:before {
+        content: "[";
+      }
+
+      span.doclink:after {
+        content: "]";
+      }
+ 
