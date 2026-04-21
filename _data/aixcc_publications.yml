@@ -1,0 +1,178 @@
+# Publications featured on the AIxCC page.
+# Each entry renders as a bullet with title/authors/venue/location/date and PDF/Bib links.
+# "slug" is the filename stem under aixcc/publications/<slug>.pdf and .bib.
+
+- title: "ACTOR: Action-Guided Kernel Fuzzing"
+  authors: "Marius Fleischer, Dipanjan Das, Priyanka Bose, Weiheng Bai, Kangjie Lu, Mathias Payer, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the USENIX Security Symposium"
+  where: "Los Angeles, USA"
+  when: "August 2023"
+  slug: 2023_USENIX_Actor
+
+- title: "Toss a Fault to Your Witcher: Applying Grey-box Coverage-Guided Mutational Fuzzing to Detect SQL and Command Injection Vulnerabilities"
+  authors: "Erik Trickel, Fabio Pagani, Chang Zhu, Lukas Dresel, Giovanni Vigna, Christopher Kruegel, Ruoyu Wang, Tiffany Bao, Yan Shoshitaishvili, Adam Doupe"
+  venue: "Proceedings of the IEEE Symposium on Security and Privacy (SP)"
+  where: "San Francisco"
+  when: "May 2023"
+  slug: 2023_SP_Witcher
+
+- title: "Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing"
+  authors: "Tobias Scharnowski, Nils Bars, Moritz Schloegel, Eric Gustafson, Marius Muench, Giovanni Vigna, Christopher Kruegel, Thorsten Holz, Ali Abbas"
+  venue: "Proceedings of the USENIX Security Symposium"
+  where: "Boston, USA"
+  when: "August 2022"
+  slug: 2022_USENIXSecurity_Fuzzware
+
+- title: "HEAPSTER: Analyzing the Security of Dynamic Allocators for Monolithic Firmware Images"
+  authors: "Fabio Gritti, Fabio Pagani, Ilya Grishchenko, Lukas Dresel, Nilo Redini, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the IEEE Symposium on Security and Privacy (SP)"
+  where: "San Francisco"
+  when: "May 2022"
+  slug: 2022_SP_Heapster
+
+- title: "SyML: Guiding Symbolic Execution Toward Vulnerable States Through Pattern Learning"
+  authors: "Nicola Ruaro, Lukas Dresel, Kyle Zeng, Tiffany Bao, Mario Polino, Andrea Continella, Stefano Zanero, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the International Symposium on Research in Attacks, Intrusions and Defenses (RAID)"
+  where: "San Sebastian, Spain"
+  when: "October 2021"
+  slug: 2021_RAID_SyML
+
+- title: "Token-Level Fuzzing"
+  authors: "Christopher Salls, Chani Jindal, Jake Corina, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the USENIX Security Symposium"
+  where: "Virtual"
+  when: "August 2021"
+  slug: 2021_USENIXSecurity_JSToken
+
+- title: "Bran: Reduce Vulnerability Search Space in Large Open-Source Repositories by Learning Bug Symptoms"
+  authors: "Dongyu Meng, Michele Guerriero, Aravind Machiry, Hojjat Aghakhani, Priyanka Bose, Andrea Continella, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the ACM Asia Conference on Computer and Communications Security (AsiaCCS)"
+  where: "Hong Kong, China"
+  when: "June 2021"
+  slug: 2021_AsiaCCS_Bran
+
+- title: "DIANE: Identifying Fuzzing Triggers in Apps to Generate Under-constrained Inputs for IoT Devices"
+  authors: "Nilo Redini, Andrea Continella, Dipanjan Das, Giulio Pasquale, Noah Spahn, Aravind Machiry, Antonio Bianchi, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the IEEE Symposium on Security and Privacy"
+  where: "Virtual"
+  when: "May 2021"
+  slug: 2021_SP_Diane
+
+- title: "Exploring Abstraction Functions in Fuzzing"
+  authors: "Christopher Salls, Aravind Machiry, Adam Doupe, Yan Shoshitaishvili, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the IEEE Conference on Communications and Network Security (CNS)"
+  where: "Avignon, France"
+  when: "June 2020"
+  slug: 2020_CNS_FuzzSense
+
+- title: "SYMBION: Interleaving Symbolic with Concrete Execution"
+  authors: "Fabio Gritti, Lorenzo Fontana, Eric Gustafson, Fabio Pagani, Andrea Continella, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the IEEE Conference on Communications and Network Security (CNS)"
+  where: "Avignon, France"
+  when: "June 2020"
+  slug: 2020_CNS_Symbion
+
+- title: "SPIDER: Enabling Fast Patch Propagation in Related Software Repositories"
+  authors: "Aravind Machiry, Nilo Redini, Eric Camellini, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the IEEE Symposium on Security and Privacy"
+  where: "San Francisco, CA"
+  when: "May 2020"
+  slug: 2020_SP_Spider
+
+- title: "KARONTE: Detecting Insecure Multi-binary Interactions in Embedded Firmware"
+  authors: "Nilo Redini, Aravind Machiry, Ruoyu Wang, Chad Spensky, Andrea Continella, Yan Shoshitaishvili, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the IEEE Symposium on Security and Privacy"
+  where: "San Francisco, CA"
+  when: "May 2020"
+  slug: 2020_SP_Karonte
+
+- title: "Sleak: Automating Address Space Layout Derandomization"
+  authors: "Christophe Hauser, Jayakrishna Menon, Yan Shoshitaishvili, Ruoyu Wang, Giovanni Vigna, Christopher Kruegel"
+  venue: "Proceedings of the Annual Computer Security Applications Conference (ACSAC)"
+  where: "San Juan, Puerto Rico"
+  when: "December 2019"
+  slug: 2019_ACSAC_Sleak
+
+- title: "PeriScope: An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary"
+  authors: "Dokyung Song, Felicitas Hetzelt, Dipanjan Das, Chad Spensky, Yeoul Na, Stijn Volckaert, Giovanni Vigna, Christopher Kruegel, Jean-Pierre Seifert, Michael Franz"
+  venue: "Proceedings of the Network and Distributed Systems Security Symposium (NDSS)"
+  where: "San Diego, USA"
+  when: "February 2019"
+  slug: 2019_NDSS_Periscope
+
+- title: "HeapHopper: Bringing Bounded Model Checking to Heap Implementation Security"
+  authors: "Moritz Eckert, Antonio Bianchi, Ruoyu Wang, Yan Shoshitaishvili, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the USENIX Security Symposium"
+  where: "Baltimore, MD"
+  when: "August 2018"
+  slug: 2018_USENIXSecurity_HeapHopper
+
+- title: "Mechanical Phish: Resilient Autonomous Hacking"
+  authors: "Yan Shoshitaishvili, Antonio Bianchi, Kevin Borgolte, Amat Cama, Jacopo Corbetta, Francesco Disperati, Audrey Dutcher, John Grosen, Paul Grosen, Aravind Machiry, Chris Salls, Nick Stephens, Ruoyu Wang, Giovanni Vigna"
+  venue: "IEEE Security and Privacy Magazine"
+  where: "vol. 16, no. 2"
+  when: "March 2018"
+  slug: 2018_SPMag_MechPhish
+
+- title: "Piston: Uncooperative Remote Runtime Patching"
+  authors: "Christopher Salls, Yan Shoshitaishvili, Nick Stephens, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the Annual Computer Security Applications Conference (ACSAC)"
+  where: "Orlando, FL"
+  when: "December 2017"
+  slug: 2017_ACSAC_Piston
+
+- title: "Rise of the HaCRS: Augmenting Autonomous Cyber Reasoning Systems with Human Assistance"
+  authors: "Yan Shoshitaishvili, Michael Weissbacher, Lukas Dresel, Christopher Salls, Ruoyu Wang, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the ACM Conference on Computer and Communications Security (CCS)"
+  where: "Dallas, TX"
+  when: "October 2017"
+  slug: 2017_CCS_HaCRS
+
+- title: "DIFUZE: Interface Aware Fuzzing for Kernel Drivers"
+  authors: "Jake Corina, Aravind Machiry, Christopher Salls, Yan Shoshitaishvili, Shuang Hao, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the ACM Conference on Computer and Communications Security (CCS)"
+  where: "Dallas, TX"
+  when: "October 2017"
+  slug: 2017_CCS_Difuze
+
+- title: "DR.CHECKER: A Soundy Analysis for Linux Kernel Drivers"
+  authors: "Aravind Machiry, Chad Spensky, Jake Corina, Nick Stephens, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the USENIX Security Symposium"
+  where: "Vancouver, BC"
+  when: "August 2017"
+  slug: 2017_USENIXSecurity_DrChecker
+
+- title: "Ramblr: Making Reassembly Great Again"
+  authors: "Ruoyu Wang, Yan Shoshitaishvili, Antonio Bianchi, Aravind Machiry, John Grosen, Paul Grosen, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the Network and Distributed System Security Symposium (NDSS)"
+  where: "San Diego, CA"
+  when: "February 2017"
+  slug: 2017_NDSS_Ramblr
+
+- title: "Cyber Grand Shellphish"
+  authors: "Shellphish Group"
+  venue: "Phrack Magazine"
+  where: "Online Publication"
+  when: "January 2017"
+  slug: 2017_Phrack_CyberGrandShellphish
+
+- title: "(State of) The Art of War: Offensive Techniques in Binary Analysis"
+  authors: "Yan Shoshitaishvili, Ruoyu Wang, Christopher Salls, Nick Stephens, Mario Polino, Audrey Dutcher, John Grosen, Siji Feng, Christophe Hauser, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the IEEE Symposium on Security and Privacy"
+  where: "San Jose, CA"
+  when: "May 2016"
+  slug: 2016_SP_angrSoK
+
+- title: "Driller: Augmenting Fuzzing Through Selective Symbolic Execution"
+  authors: "Nick Stephens, John Grosen, Christopher Salls, Audrey Dutcher, Ruoyu Wang, Jacopo Corbetta, Yan Shoshitaishvili, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the Network and Distributed System Security Symposium (NDSS)"
+  where: "San Diego, CA"
+  when: "February 2016"
+  slug: 2016_NDSS_Driller
+
+- title: "Firmalice - Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware"
+  authors: "Yan Shoshitaishvili, Ruoyu Wang, Christophe Hauser, Christopher Kruegel, Giovanni Vigna"
+  venue: "Proceedings of the Network and Distributed System Security Symposium (NDSS)"
+  where: "San Diego, CA"
+  when: "February 2015"
+  slug: 2015_NDSS_Firmalice
