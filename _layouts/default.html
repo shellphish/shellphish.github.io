@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="{{ '/shellphish.css' | relative_url }}">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}Shellphish</title>
+  </head>
+  <body>
+    <ul id="navbar">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/members/' | relative_url }}">Members</a></li>
+        <li><a href="{{ '/cgc/' | relative_url }}">CGC</a></li>
+        <li><a href="{{ '/aixcc/' | relative_url }}">AIxCC</a></li>
+        <li><a href="https://support.shellphish.net">Shellphish Support Syndicate</a></li>
+    </ul>
+
+    {{ content }}
+  </body>
+</html>

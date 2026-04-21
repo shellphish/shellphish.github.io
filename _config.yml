@@ -1,0 +1,23 @@
+title: Shellphish
+description: Shellphish pursues the joy of hacking.
+
+# Use the safe Kramdown + Liquid stack that GitHub Pages runs.
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# We ship our own layout; no theme needed.
+theme: null
+
+# Keep tooling/infra files out of the built site.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .DS_Store
+  - "**/.DS_Store"
+
+# Keep URLs identical to the old site (…/members/, …/cgc/, …/aixcc/).
+permalink: pretty
